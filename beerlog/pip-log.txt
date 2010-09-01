@@ -1,0 +1,36 @@
+Obtaining django-debug-toolbar from git+http://github.com/binarydud/django-debug-toolbar.git#egg=django-debug-toolbar
+  Cloning http://github.com/binarydud/django-debug-toolbar.git to /opt/sites/beerlog.nr4th.net/env/src/django-debug-toolbar
+Exception:
+Traceback (most recent call last):
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 805, in install_files
+    req_to_install.update_editable(not self.is_download)
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 356, in update_editable
+    vcs_backend.obtain(self.source_dir)
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/vcs/git.py", line 104, in obtain
+    [self.cmd, 'clone', '-q', url, dest])
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/vcs/__init__.py", line 100, in cmd
+    raise BadCommand('Cannot find command %s' % self.name)
+BadCommand: Cannot find command git
+------------------------------------------------------------
+/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/runner.py run on Mon Aug 30 14:35:45 2010
+Obtaining debug-toolbar from git+http://github.com/binarydud/django-debug-toolbar.git#egg=debug-toolbar
+  Cloning http://github.com/binarydud/django-debug-toolbar.git to /opt/sites/beerlog.nr4th.net/env/src/debug-toolbar
+Exception:
+Traceback (most recent call last):
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/basecommand.py", line 115, in main
+    self.run(options, args)
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/commands/install.py", line 155, in run
+    requirement_set.install_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 805, in install_files
+    req_to_install.update_editable(not self.is_download)
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/req.py", line 356, in update_editable
+    vcs_backend.obtain(self.source_dir)
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/vcs/git.py", line 104, in obtain
+    [self.cmd, 'clone', '-q', url, dest])
+  File "/opt/sites/beerlog.nr4th.net/env/lib/python2.6/site-packages/pip-0.6.3-py2.6.egg/pip/vcs/__init__.py", line 100, in cmd
+    raise BadCommand('Cannot find command %s' % self.name)
+BadCommand: Cannot find command git
